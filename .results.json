@@ -1,0 +1,251 @@
+{
+  "stats": {
+    "suites": 11,
+    "tests": 9,
+    "passes": 6,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-06-11T21:14:45.936Z",
+    "end": "2022-06-11T21:14:46.355Z",
+    "duration": 419
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to be an array",
+        "showDiff": false,
+        "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:57:54)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to be an array",
+            "showDiff": false,
+            "multiple": "AssertionError: expected undefined to be an array",
+            "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:57:54)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+        "showDiff": true,
+        "actual": "[]",
+        "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
+        "stack": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:65:49)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+            "showDiff": true,
+            "actual": "[]",
+            "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
+            "multiple": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+            "stack": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:65:49)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeFirstCat is not defined\n    at Context.<anonymous> (test/indexTest.js:73:9)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "removeFirstCat is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: removeFirstCat is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to be an array",
+        "showDiff": false,
+        "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:57:54)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to be an array",
+            "showDiff": false,
+            "multiple": "AssertionError: expected undefined to be an array",
+            "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:57:54)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+        "showDiff": true,
+        "actual": "[]",
+        "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
+        "stack": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:65:49)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+            "showDiff": true,
+            "actual": "[]",
+            "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
+            "multiple": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]",
+            "stack": "AssertionError: expected [] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:65:49)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: removeFirstCat is not defined\n    at Context.<anonymous> (test/indexTest.js:73:9)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "removeFirstCat is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: removeFirstCat is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/home/karen/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
