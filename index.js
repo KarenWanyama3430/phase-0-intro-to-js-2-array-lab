@@ -1,29 +1,51 @@
-const cats= ['Milo' ,'Otis', 'Garfield']
+const drivers = ["Milo", "Otis", "Garfield"];
+const cats = ["Milo", "Otis", "Garfield"];
 
+function destructivelyAppendDriver (name) {
+  drivers.push(name);
 function destructivelyAppendCat (name) {
-    cats.push (name);
-}
+  cats.push(name);
+}}
 
-function destructivelyPrependCat (name){
-    cats.unshift (name);
-}
+function destructivelyPrependDriver (name) {
+  drivers.unshift(name);
+function destructivelyPrependCat (name) {
+  cats.unshift(name);
+}}
 
-function  destructivelyRemoveLastCat(){
-    cats.pop ();
-}
+function destructivelyRemoveLastDriver () {
+  drivers.pop();
+function destructivelyRemoveLastCat () {
+  cats.pop();
+}}
 
-function destructivelyRemoveFirstCat(){
-    cats.shift ();
-}
+function destructivelyRemoveFirstDriver () {
+  drivers.shift();
+function destructivelyRemoveFirstCat () {
+  cats.shift();
+}}
 
-function appendCat (name){
-    return cats.concat (name);
-}
+function appendDriver (name) {
+  return [...drivers, name];
+function appendCat (name) {
+  return [...cats, name];
+}}
 
-function prependCat (name){
-    const newCats = [name ,...cats]
-}
+function prependDriver (name) {
+  return [name, ...drivers];
+function prependCat (name) {
+  return [name, ...cats];
+}}
 
-function removeLastCat(){
-    return cats.slice (0,cats,length)
+function removeFirstDriver () {
+  return drivers.slice(1);
+function removeFirstCat () {
+  return cats.slice(1);
+}}
+
+function removeLastDriver () {
+  return drivers.slice(0, drivers.length - 1);
+} 
+function removeLastCat () {
+  return cats.slice(0, cats.length - 1);
 }
